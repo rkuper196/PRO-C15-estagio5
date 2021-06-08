@@ -48,7 +48,7 @@ function setup() {
   obstaclesGroup = createGroup();
   cloudsGroup = createGroup();
   
-  console.log("Hello" + 5);
+  console.log("Olá" + 5);
   
   score = 0;
 }
@@ -56,7 +56,7 @@ function setup() {
 function draw() {
   background(180);
   //exibindo a pontuação
-  text("Score: "+ score, 500,50);
+  text("Pontuação: "+ score, 500,50);
   
   
   
